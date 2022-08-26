@@ -14,12 +14,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class Login extends env_target {
-    Duration duration = Duration.ofSeconds(10);
-    WebDriverWait wait = new WebDriverWait(driver, duration);
+
     @Given("User is on login page")
     public void user_is_on_login_page() {
-
-
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get(sauceDemo);
+        Duration duration = Duration.ofSeconds(10);
+        WebDriverWait wait = new WebDriverWait(driver, duration);
         wait.until(
             ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='submit'][@data-test='login-button']"))
         );
