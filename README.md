@@ -6,7 +6,7 @@ This repo is the case study source code for course UI Automation with Java in my
 Branch information
 - Master : Source code case study for modul 15 (Selenium Java)
 - parabank : Source code case study for modul 16 (Case Study : Web Form Automation)
-- tdd : Source code case study for modul 17 (Cucumber Java (BDD) & Data driven testing (tdd))
+- bdd-tdd : Source code case study for modul 17 (Cucumber Java (BDD) & Data driven testing (tdd))
 - POM-example : Source code case study for modul 18 (Page Object Modelling (POM))
 ```
 
