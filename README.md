@@ -13,7 +13,7 @@ Branch information
 How to run
 1. Clone this repo
 ```
-git clonehttps://github.com/alvintrianto/MySkill-UI-Automation.git
+git clone https://github.com/alvintrianto/MySkill-UI-Automation.git
 ```
 2. Open this file with Intellij IDE
 3. Install depedencies in the maven pom.xml
