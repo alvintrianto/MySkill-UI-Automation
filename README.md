@@ -11,7 +11,7 @@ Branch information
 ```
 
 How to run
-1. Clone this repo
+1. Clone this repo https://github.com/alvintrianto/MySkill-UI-Automation.git
 ```
 git clone
 ```
